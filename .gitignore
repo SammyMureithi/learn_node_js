@@ -1,2 +1,13 @@
+# Ignore environment variable files
 .env
-\node_modules
+
+# Ignore Node.js modules
+node_modules
+
+# Ignore logs
+logs
+*.log
+
+# Ignore other files or folders
+dist/
+.DS_Store
