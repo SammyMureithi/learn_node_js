@@ -6,6 +6,6 @@ const router = express.Router();
 
 router.post('/', validateDrone, droneController.createDrone);
 router.get('/', droneController.getAllDrones);
-router.put('/', validateDrone, droneController.updateDrone);
+router.put('/:id', validateDrone, droneController.updateDrone);
 
 module.exports = router
